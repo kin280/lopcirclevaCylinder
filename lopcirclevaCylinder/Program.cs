@@ -46,18 +46,6 @@
     }
 }
 
-class Program
-{
-    static void Main()
-    {
-        Circle circle1 = new Circle();
-        Console.WriteLine(circle1);
-
-        Circle circle2 = new Circle(3.5, "blue");
-        Console.WriteLine(circle2);
-    }
-}
-
 class Cylinder : Circle
 {
     private double height;
